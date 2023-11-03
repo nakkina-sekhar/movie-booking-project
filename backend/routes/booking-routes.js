@@ -1,4 +1,4 @@
-const express = require('express');
+ const express = require('express');
 const bookingRouter = express.Router();
 
 const { Booking, deleteBooking } = require('../controllers/booking-controller');
